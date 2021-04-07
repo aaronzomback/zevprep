@@ -4,18 +4,27 @@ title: Contact
 permalink: /contact/
 ---
 
+  <div class="formPopup" id="popupForm">
 
+<form class="contact-form" action="https://getform.io/f/d63b9914-ae60-442a-af47-09a12b2d24c6" method="POST">
 
-<form action="https://getform.io/f/d63b9914-ae60-442a-af47-09a12b2d24c6" method="POST">
+<label for="first_name">First name</label>
+  <input type="text" name="first_name">
 
-<label for="name">Full name</label>
-  <input type="text" name="name">
+  <label for="last_name">Last name (optional)</label>
+    <input type="text" name="last_name">
 
   <label for="email">Email</label>
   <input type="email" name="email">
 
+  <label for="tel">Phone (optional)</label>
+  <input type="phone" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"">
+
   <label for="message">Message (optional)</label>
-  <input type="text" name="message">
+  <input type="text" name="message" id="message">
+
   <button type="submit">Send</button>
 
 </form>
+
+  </div>

@@ -20,23 +20,70 @@ body {
 }
 
 form {
-  font-family: "Almarai";
 
-  label {
-    margin-bottom: 16px;
-  }
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Almarai";
 
   input {
     display: block;
     min-width: 300px;
-    padding: 6px;
+    padding: 12px;
     margin-bottom: 16px;
+    border: 1px solid black;
   }
 
   button[type=submit] {
     background-color: black;
     color: white;
-    padding: 8px;
+    padding: 16px;
     min-width: 300px;
+    border: 1px solid black;
+    font-size: 18px;
   }
+
+  #message {
+    height: 60px;
+  }
+}
+
+label {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+
+
+
+
+  .formPopup {
+      position: relative;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0,0,0,.8);
+
+    form.contact-form {
+      width: 50%;
+       height: 50%;
+       background: #1abcb9;
+       position: absolute;
+       top: 0;
+       right: 0;
+       bottom: 0;
+       left: 0;
+       margin: auto;
+ }
+  }
+
+
+  /* Toggle this class - hide and show the popup */
+.formPopup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 0.40s;
+  animation: fadeIn 0.40s;
 }

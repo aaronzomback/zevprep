@@ -4,9 +4,11 @@ title: Contact
 permalink: /contact/
 ---
 
-  <div class="formPopup" id="popupForm">
+  <div>
 
 <form class="contact-form" action="https://getform.io/f/d63b9914-ae60-442a-af47-09a12b2d24c6" method="POST">
+
+  <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
 
 <label for="first_name">First name</label>
   <input type="text" name="first_name">
@@ -28,3 +30,14 @@ permalink: /contact/
 </form>
 
   </div>
+
+
+
+  <script>
+   grecaptcha.ready(function() {
+       grecaptcha.execute('6LcC_Z8aAAAAANYSO8jnyx10bI3e1kPjP3zy6dw2', {action: 'homepage'})
+       .then(function(token) {
+         document.getElementById('captchaResponse').value = token;
+       });
+     });
+</script>

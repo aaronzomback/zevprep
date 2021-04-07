@@ -7,6 +7,7 @@
 
 
 @import "header";
+@import "subjects";
 @import "footer";
 
 
@@ -15,5 +16,27 @@ body {
   a {
     text-decoration: none;
     color: black;
+  }
+}
+
+form {
+  font-family: "Almarai";
+
+  label {
+    margin-bottom: 16px;
+  }
+
+  input {
+    display: block;
+    min-width: 300px;
+    padding: 6px;
+    margin-bottom: 16px;
+  }
+
+  button[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    min-width: 300px;
   }
 }

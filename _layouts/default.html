@@ -8,7 +8,7 @@
     <meta name="keywords" content="SAT, ACT, Tutor, Tutoring, NYC">
     <meta name="description" content="ZevPrep, an SAT/ACT peak performance tutoring service">
     <link rel="stylesheet" href="/assets/css/app.css">
-    <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_6LcC_Z8aAAAAANYSO8jnyx10bI3e1kPjP3zy6dw2"></script>
   </head>
   <body>
   {% include header.html %}
@@ -30,5 +30,14 @@
           contact.classList.toggle("active")
         }
       </script> -->
+
+      <script>
+       grecaptcha.ready(function() {
+           grecaptcha.execute('6LcC_Z8aAAAAANYSO8jnyx10bI3e1kPjP3zy6dw2', {action: 'homepage'})
+           .then(function(token) {
+             document.getElementById('captchaResponse').value = token;
+           });
+         });
+    </script>
   </body>
 </html>

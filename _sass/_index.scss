@@ -7,6 +7,7 @@ section.index-hero {
     width: 100vw;
     background-image: url('/assets/img/nyc-bridge.jpg');
     background-size: cover;
+    background-position: left;
     font-family: "Amiri";
 
     div.hero-flex {
@@ -15,6 +16,7 @@ section.index-hero {
 
       h1 {
         margin-left: 16px;
+        padding-left: 16px;
         margin-right: 18px;
         margin-top: 128px;
         width: 600px;
@@ -23,7 +25,8 @@ section.index-hero {
       }
 
       p {
-        margin-left: 16px;
+        padding-left: 16px;
+        margin-left: 24px;
         width: 500px;
         font-size: 24px;
         line-height: 1.2;

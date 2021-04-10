@@ -2,6 +2,8 @@
 
 
 header {
+
+  width: 100vw;
   font-family: "Almarai";
   align-items: center;
 
@@ -11,8 +13,8 @@ header {
   }
 
   nav {
-    margin-left: 160px;
-    margin-right: 160px;
+    margin-left: 128px;
+    margin-right: 128px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +27,7 @@ header {
   a {
     margin-right: 56px;
     text-transform: uppercase;
-    font-size: 21px;
+    font-size: 18px;
     letter-spacing: 2px;
   }
 

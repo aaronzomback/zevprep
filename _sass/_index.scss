@@ -140,6 +140,7 @@ div.sat-act-flex {
     margin-right: 8rem;
     font-family: "Amiri";
 
+
     div.sat-img {
       height: 300px;
       width: 400px;
@@ -163,7 +164,17 @@ div.sat-act-flex {
         justify-content: center;
         border: 2px solid black;
         max-width: 400px;
-      a {
+        transition: all .2s ease-in-out;
+
+        &:hover {
+          background-color: black;
+          
+          span {
+              color: white;
+          }
+        }
+
+      span {
         text-align: center;
         padding: 12px 16px;
         text-transform: uppercase;
@@ -194,7 +205,17 @@ div.sat-act-flex {
       justify-content: center;
       border: 2px solid black;
       max-width: 400px;
-    a {
+      transition: all .2s ease-in-out;
+
+      &:hover {
+        background-color: black;
+
+        span {
+            color: white;
+        }
+      }
+
+    span {
       text-align: center;
       padding: 12px 16px;
       text-transform: uppercase;

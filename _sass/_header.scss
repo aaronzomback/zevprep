@@ -20,6 +20,15 @@ header {
     align-items: center;
 
     div.nav-links {
+      a.underline{
+        transition: all .2s ease-in-out;
+
+        &:hover {
+          // font-size: 20px;
+          border-bottom: 1px solid black;
+          padding-bottom: 8px;
+        }
+      }
       // font-size: 21px;
     }
   }
@@ -52,7 +61,7 @@ header {
       margin-right: 0;
       color: white;
       text-transform: uppercase;
-      letter-spacing: 2px;
+      letter-spacing: 4px;
       font-size: 18px;
     }
 

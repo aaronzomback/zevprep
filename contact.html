@@ -20,7 +20,7 @@ permalink: /contact/
   <input type="email" name="email">
 
   <label for="tel">Phone (optional)</label>
-  <input type="phone" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"">
+  <input type="phone" name="phone" id="phone">
 
   <label for="message">Message (optional)</label>
   <input type="text" name="message" id="message">
@@ -30,14 +30,3 @@ permalink: /contact/
 </form>
 
   </div>
-
-
-
-  <script>
-   grecaptcha.ready(function() {
-       grecaptcha.execute('6LcC_Z8aAAAAANYSO8jnyx10bI3e1kPjP3zy6dw2', {action: 'homepage'})
-       .then(function(token) {
-         document.getElementById('captchaResponse').value = token;
-       });
-     });
-</script>

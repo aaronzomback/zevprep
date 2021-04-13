@@ -40,7 +40,7 @@ section.index-post-hero {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: #010500;
   color: white;
   font-family: "Amiri";
 
@@ -85,7 +85,7 @@ section.index-about {
   vertical-align: middle;
   font-family: "Amiri";
   color: white;
-  background-color: black;
+  background-color: #010500;
 
 
   h2 {
@@ -277,12 +277,52 @@ div.sat-act-flex {
 }
 
 section.index-testimonials {
+  margin-top: 240px;
   height: 800px;
   width: 100vw;
-  background-color: white;
+  background-color: black;
+  color: white;
+  font-family: "Amiri";
+
+  div.testimonial-header {
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
 }
 
 .sat-act-flex {
   display: flex;
   justify-content: space-around;
+}
+
+
+section.index-pricing {
+  height: 800px;
+  width: 100vw;
+  background-color: white;
+  color: black;
+  font-family: "Amiri";
+
+  h1 {
+    padding-top: 120px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+section.index-contact {
+  font-family: "Amiri";
+  background-color: #292a2c;
+  color: white;
+  height: 800px;
+  width: 100vw;
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+  }
 }

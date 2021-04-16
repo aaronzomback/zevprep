@@ -79,13 +79,14 @@ section.index-about {
   padding: 48px 0;
   height: 1000px;
   width: 100vw;
+  margin-top: 120px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   vertical-align: middle;
   font-family: "Amiri";
-  color: white;
-  background-color: #010500;
+  color: black;
+  background-color: white;
 
 
   h2 {
@@ -281,8 +282,8 @@ div.sat-act-flex {
 section.index-testimonials {
   margin-top: 240px;
   width: 100vw;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-family: "Amiri";
   align-items: flex-start;
   display: flex;
@@ -305,17 +306,17 @@ section.index-testimonials {
     font-size: 16px;
     margin-top: 80px;
     max-width: 440px;
-    border: 2px solid white;
+    border: 2px solid black;
     padding: 16px 32px;
-    color: white;
+    color: black;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 160px;
     transition: all .2s ease-in-out;
 
     &:hover {
-      background-color: white;
-      color: black;
+      background-color: black;
+      color: white;
     }
   }
 

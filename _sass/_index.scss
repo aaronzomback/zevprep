@@ -88,6 +88,19 @@ section.index-about {
   color: white;
   background-color: black;
 
+  div.zev-learn-more {
+    border: 1px solid white;
+
+    span {
+      padding: 12px 16px;
+      font-family: "Amiri";
+      display: flex;
+      justify-content: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+  }
+
 
   h2 {
     font-size: 56px;

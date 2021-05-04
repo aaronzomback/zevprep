@@ -1,7 +1,11 @@
 
 $(document).ready(() => {
   $('.contact-box').on("click", () => {
-    console.log('clicked');
-    $('#contact-form').toggle();
+    $('#contact-div').toggle();
+      console.log('clicked');
   });
+
+  $('#close-form').on("click", () => {
+    $('#contact-div').hide();
+  })
 });

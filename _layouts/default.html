@@ -18,23 +18,14 @@
 
     <main>
       {{content}}
+      {% include contact-form.html %}
     </main>
 
     {% include footer.html %}
 </div>
 </div>
 
-<!--
-<script type="text/javascript">
-          function toggle() {
-          var contact= document.querySelector(".formPopup")
-          contact.classList.toggle("active")
-        }
-      </script> -->
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
-          console.log('loaded');
-      </script>
 
       <script>
        grecaptcha.ready(function() {
@@ -44,13 +35,9 @@
            });
          });
     </script>
-    <script src="/javascript/main.js">
-    $(document).ready(() => {
-      $('.contact-box').on("click", () => {
-        console.log('clicked');
-        $('#contact-form').toggle();
-      });
-    });
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="javascript/main.js">
+
     </script>
   </body>
 </html>

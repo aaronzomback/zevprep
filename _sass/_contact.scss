@@ -4,6 +4,17 @@ section.contact {
   height: 100vh;
 }
 
+#contact-form {
+  padding: 64px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background-color: grey;
+  z-index: 999;
+}
+
 
 form {
 
@@ -28,6 +39,7 @@ form {
     min-width: 300px;
     border: 1px solid black;
     font-size: 18px;
+    font-family: "amiri";
   }
 
   #message {
@@ -68,12 +80,6 @@ label {
   }
 
 
-  /* Toggle this class - hide and show the popup */
-.formPopup .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 0.40s;
-  animation: fadeIn 0.40s;
-}
 
 
 nav#hamburger {

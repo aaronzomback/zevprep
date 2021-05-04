@@ -9,7 +9,7 @@
     <meta name="description" content="ZevPrep, an SAT/ACT peak performance tutoring service">
     <script src="https://www.google.com/recaptcha/api.js?render=6LcC_Z8aAAAAANYSO8jnyx10bI3e1kPjP3zy6dw2"></script>
     <link rel="stylesheet" href="/assets/css/app.css">
-    <link rel="shortcut icon" sizes="196x196" href="/assets/img/zp.svg">
+    <link rel="shortcut icon" sizes="196x196" href="/assets/img/ZPlogo2021.svg">
   </head>
   <body>
   {% include header.html %}
@@ -32,6 +32,10 @@
         }
       </script> -->
 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+          console.log('loaded');
+      </script>
+
       <script>
        grecaptcha.ready(function() {
            grecaptcha.execute('6LcC_Z8aAAAAANYSO8jnyx10bI3e1kPjP3zy6dw2', {action: 'homepage'})
@@ -39,6 +43,14 @@
              document.getElementById('captchaResponse').value = token;
            });
          });
+    </script>
+    <script src="/javascript/main.js">
+    $(document).ready(() => {
+      $('.contact-box').on("click", () => {
+        console.log('clicked');
+        $('#contact-form').toggle();
+      });
+    });
     </script>
   </body>
 </html>

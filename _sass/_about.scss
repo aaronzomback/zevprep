@@ -1,6 +1,23 @@
-.about {
+section.about {
   img {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+    width: 400px;
   }
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  align-items:flex-start;
+  width: 1000px;
+}
+
+
+div.about-paragraph {
+  font-family: "amiri";
+  font-size: 18px;
+  width: 600px;
 }

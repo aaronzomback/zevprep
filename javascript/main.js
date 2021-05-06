@@ -13,6 +13,7 @@ $(document).ready(() => {
   // hamburger nav
 
   $('#hamburger-icon').on("click", () => {
+    console.log('click');
     $('#hamburger-nav').toggle();
     $('#hamburger-icon').hide();
   });

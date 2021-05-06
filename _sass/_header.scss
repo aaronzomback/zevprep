@@ -4,7 +4,7 @@
 header {
 
   width: 100vw;
-  font-family: "Amiri";
+  font-family: "amiri";
   align-items: center;
   background-color: white;
 
@@ -27,8 +27,7 @@ header {
 
         &:hover {
           // font-size: 20px;
-          border-bottom: 1px solid black;
-          padding-bottom: 8px;
+         color: gray;
         }
       }
       // font-size: 21px;

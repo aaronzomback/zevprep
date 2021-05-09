@@ -1,12 +1,11 @@
 
 
 
-
 section.index-hero {
     height: 80vh;
     width: 100%;
     position: relative;
-    background-image: linear-gradient(white, black), url('/assets/img/nyc-bridge.jpg');
+    background-image: linear-gradient(white, black), url('/assets/img/hero-img.jpg');
     background-blend-mode: overlay;
     background-blend-mode: saturation;
     background-size: cover;
@@ -146,6 +145,10 @@ section.index-subjects {
   width: 100vw;
   background-color: white;
   color: black;
+
+  h2 {
+    text-align: center;
+  }
 
 div.sat-act-flex {
   display: flex;

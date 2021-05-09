@@ -218,6 +218,54 @@ div.sat-act-flex {
     }
   }
 
+  div.hum-card {
+    width: 400px;
+    margin-right: 8rem;
+    font-family: "Amiri";
+
+    div.hum-img {
+      height: 300px;
+      width: 400px;
+      background-image: url('/assets/img/hum.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    img {
+      width: 45%;
+    }
+
+    p {
+      width: 400px;
+      margin-right: 0;
+    }
+
+    div.hum-button {
+      margin-top: 24px;
+      margin-right: 0;
+      display: flex;
+      justify-content: center;
+      border: 2px solid black;
+      max-width: 400px;
+      transition: all .2s ease-in-out;
+
+      &:hover {
+        background-color: black;
+
+        span {
+            color: white;
+        }
+      }
+
+    span {
+      text-align: center;
+      padding: 12px 16px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  }
+  }
+
   div.act-card {
 
     width: 400px;

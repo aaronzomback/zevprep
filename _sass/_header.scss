@@ -20,7 +20,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     div.nav-links {
       a.underline{
         transition: all .2s ease-in-out;
@@ -40,6 +39,7 @@ header {
     font-size: 18px;
     letter-spacing: 2px;
   }
+
 
   span {
     margin-right: 56px;

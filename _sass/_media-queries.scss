@@ -6,33 +6,44 @@
   #hamburger-nav {
     display: none;
   }
+
+  nav.mobile {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-    div.nav-links {
+    nav.wide {
       display: none;
-  }
-
-  #hamburger-icon {
-    display: block;
-  }
+    }
 
   #hamburger-nav {
     display: none;
+  }
+
+  nav.mobile {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 32px;
   }
 
 }
 
 @media screen and (max-width: 1280px) {
-  div.nav-links {
+  
+  nav.wide {
     display: none;
-  }
-
-  #hamburger-icon {
-    display: block;
   }
 
   #hamburger-nav {
     display: none;
+  }
+
+  nav.mobile {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 32px;
   }
 }

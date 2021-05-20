@@ -82,10 +82,8 @@ section.index-quote {
 }
 
 section.index-about {
-  padding: 48px 0;
   height: 1000px;
   width: 100vw;
-  margin-top: 120px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -141,6 +139,7 @@ section.index-about {
 section.index-subjects {
 
   font-family: "Amiri";
+  padding-bottom: 120px;
   height: 800px;
   width: 100vw;
   background-color: white;
@@ -174,14 +173,14 @@ div.sat-act-flex {
 
   div.sat-card {
 
-    width: 400px;
+    width: 300px;
     margin-right: 8rem;
     font-family: "Amiri";
 
 
     div.sat-img {
       height: 300px;
-      width: 400px;
+      width: 300px;
       background-image: url('/assets/img/standard-test.jpg');
       background-size: cover;
       background-repeat: no-repeat;
@@ -191,7 +190,7 @@ div.sat-act-flex {
     }
 
     p {
-      width: 400px;
+      width: 300px;
       margin-right: 0;
     }
 
@@ -201,7 +200,7 @@ div.sat-act-flex {
         display: flex;
         justify-content: center;
         border: 2px solid black;
-        max-width: 400px;
+        max-width: 300px;
         transition: all .2s ease-in-out;
 
         &:hover {
@@ -222,13 +221,13 @@ div.sat-act-flex {
   }
 
   div.hum-card {
-    width: 400px;
+    width: 300px;
     margin-right: 8rem;
     font-family: "Amiri";
 
     div.hum-img {
       height: 300px;
-      width: 400px;
+      width: 300px;
       background-image: url('/assets/img/hum.jpg');
       background-size: cover;
       background-repeat: no-repeat;
@@ -239,7 +238,7 @@ div.sat-act-flex {
     }
 
     p {
-      width: 400px;
+      width: 300px;
       margin-right: 0;
     }
 
@@ -249,7 +248,7 @@ div.sat-act-flex {
       display: flex;
       justify-content: center;
       border: 2px solid black;
-      max-width: 400px;
+      max-width: 300px;
       transition: all .2s ease-in-out;
 
       &:hover {
@@ -271,17 +270,17 @@ div.sat-act-flex {
 
   div.act-card {
 
-    width: 400px;
+    width: 300px;
 
     div.act-img {
-      width: 400px;
+      width: 300px;
       height: 300px;
       background-image: url('/assets/img/mentor.jpg');
       background-size: contain;
     }
 
     p {
-      width: 400px;
+      width: 300px;
     }
   }
 
@@ -290,7 +289,7 @@ div.sat-act-flex {
       display: flex;
       justify-content: center;
       border: 2px solid black;
-      max-width: 400px;
+      max-width: 300px;
       transition: all .2s ease-in-out;
 
       &:hover {
@@ -540,13 +539,13 @@ section.index-contact {
   font-family: "Amiri";
   background-color: white;
   color: black;
-  height: 1000px;
+  height: 900px;
   width: 100vw;
 
   h1 {
     display: flex;
     justify-content: center;
-    padding-top: 120px;
+    padding-top: 64px;
   }
 
   div.form-index {

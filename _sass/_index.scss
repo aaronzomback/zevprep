@@ -3,10 +3,10 @@
 
 section.index-hero {
 
-    height: 80vh;
+    height: 600px;
     width: 100vw;
     position: relative;
-    background-image: linear-gradient(white, black), url('/assets/img/hero-img.jpg');
+    background-image: url('/assets/img/hero-img.jpg');
     background-blend-mode: overlay;
     background-blend-mode: saturation;
     background-size: cover;

@@ -58,8 +58,19 @@
 
   section.index-hero {
     background-image: none;
-    background-color: grayscale($color: #c7c7c7);
+    background-color: black;
+    color: white !important;
+
+    div.hero-flex {
+      display: flex;
+      justify-content: center;
+    }
+
+    h1 {
+      color: white !important;
+    }
   }
+  
 
   #back-img {
     height: 400px;

@@ -142,10 +142,10 @@ section.index-subjects {
 
   font-family: "Amiri";
   padding-bottom: 120px;
-  height: 800px;
   width: 100vw;
   background-color: white;
   color: black;
+
 
   h2 {
     text-align: center;
@@ -153,7 +153,8 @@ section.index-subjects {
 
 div.sat-act-flex {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;;
 }
 
   h1 {
@@ -178,6 +179,8 @@ div.sat-act-flex {
     width: 300px;
     margin-right: 8rem;
     font-family: "Amiri";
+    margin-bottom: 32px;
+    
 
 
     div.sat-img {
@@ -226,6 +229,7 @@ div.sat-act-flex {
     width: 300px;
     margin-right: 8rem;
     font-family: "Amiri";
+    margin-bottom: 32px;
 
     div.hum-img {
       height: 300px;
@@ -273,6 +277,7 @@ div.sat-act-flex {
   div.act-card {
 
     width: 300px;
+    margin-bottom: 32px;
 
     div.act-img {
       width: 300px;

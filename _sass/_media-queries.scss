@@ -7,26 +7,36 @@
     display: none;
   }
 
-  div.back-img {
-    img {
-      display: block;
-    }
+  nav.mobile {
+    display: none;
   }
 
-  nav.mobile {
+  section.hero-alt {
     display: none;
   }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1250px) {
 
   section.index-hero {
     background-image: none;
-    background-color: grayscale($color: #c7c7c7);
+    background-color: black;
+    color: white !important;
+
+    div.hero-flex {
+      display: flex;
+      justify-content: center;
+    }
+
+    h1 {
+      color: white !important;
+    }
   }
+  
 
   #back-img {
     height: 400px;
+    width: 100vw;
     background-image: url('/assets/img/hero-img.jpg');
     background-blend-mode: overlay;
     background-blend-mode: saturation;

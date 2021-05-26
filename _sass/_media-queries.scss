@@ -60,10 +60,12 @@
     background-image: none;
     background-color: black;
     color: white !important;
+    width: 100%;
+    box-sizing: border-box;
 
     div.hero-flex {
-      display: flex;
-      justify-content: center;
+      // display: flex;
+      // justify-content: center;
     }
 
     h1 {
@@ -80,6 +82,7 @@
     background-size: cover;
     background-position: center center;
     background-attachment: scroll;
+    width: 100vw;
   }
 
   nav.mobile {

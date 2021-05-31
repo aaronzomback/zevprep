@@ -154,7 +154,9 @@ section.index-subjects {
 div.sat-act-flex {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;;
+  justify-content: center;
+  gap: 64px;
+
 }
 
   h1 {
@@ -177,10 +179,9 @@ div.sat-act-flex {
   div.sat-card {
 
     width: 300px;
-    margin-right: 8rem;
     font-family: "Amiri";
     margin-bottom: 32px;
-    
+
 
 
     div.sat-img {
@@ -227,7 +228,7 @@ div.sat-act-flex {
 
   div.hum-card {
     width: 300px;
-    margin-right: 8rem;
+    // margin-right: 8rem;
     font-family: "Amiri";
     margin-bottom: 32px;
 

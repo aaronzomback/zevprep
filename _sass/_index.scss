@@ -19,22 +19,25 @@ section.index-hero {
       justify-content: flex-end;
 
       h1 {
-        padding-left: 4rem;
+        // padding-left: 4rem;
         margin-top: 8rem;
-        color: black;
+        color: white;
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         width: 600px;
         line-height: 1;
+        text-shadow: 2px 2px 4px black;
         // font-weight: 400;
       }
       p {
-        padding-left: 4rem;
+        // padding-left: 4rem;
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         width: 500px;
         font-size: 24px;
         line-height: 1.2;
+        color: white;
+        text-shadow: 1px 2px 4px black;
       }
     }
 }
@@ -90,14 +93,15 @@ section.index-about {
   font-family: "Amiri";
   color: white;
   background-color: black;
+  padding-bottom: 96px;
 
-  .about-text {
-    flex: 1;
-  }
-
-  .index-about-flex {
-    flex: 2;
-  }
+  // .about-text {
+  //   flex: 1;
+  // }
+  //
+  // .index-about-flex {
+  //   flex: 2;
+  // }
 
   div.zev-learn-more {
 

@@ -36,7 +36,6 @@
 
   #back-img {
     height: 400px;
-    width: 100vw;
     background-image: url('/assets/img/hero-img.jpg');
     background-blend-mode: overlay;
     background-blend-mode: saturation;
@@ -82,7 +81,6 @@
     background-size: cover;
     background-position: center center;
     background-attachment: scroll;
-    width: 100vw;
   }
 
   nav.mobile {

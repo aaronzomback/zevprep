@@ -3,7 +3,7 @@
 
 section.index-hero {
 
-    height: 600px;
+    height: 500px;
     position: relative;
     background-image: url('/assets/img/hero-img.jpg');
     background-blend-mode: overlay;
@@ -83,12 +83,21 @@ section.index-about {
 
   height: 1000px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   vertical-align: middle;
   font-family: "Amiri";
   color: white;
   background-color: black;
+
+  .about-text {
+    flex: 1;
+  }
+
+  .index-about-flex {
+    flex: 2;
+  }
 
   div.zev-learn-more {
 
@@ -152,7 +161,7 @@ div.sat-act-flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 64px;
+  gap: 88px;
 
 }
 

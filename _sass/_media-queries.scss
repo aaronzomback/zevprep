@@ -19,30 +19,22 @@
 @media screen and (max-width: 1250px) {
 
   section.index-hero {
-    background-image: none;
-    background-color: black;
-    color: white !important;
+
 
     div.hero-flex {
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
     }
 
     h1 {
       color: white !important;
     }
+
+    p {
+            color: white !important;
+    }
   }
 
-
-  #back-img {
-    height: 400px;
-    background-image: url('/assets/img/hero-img.jpg');
-    background-blend-mode: overlay;
-    background-blend-mode: saturation;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: scroll;
-  }
 
 }
 
@@ -56,32 +48,14 @@
   }
 
   section.index-hero {
-    background-image: none;
-    background-color: black;
-    color: white !important;
     width: 100%;
     box-sizing: border-box;
 
-    div.hero-flex {
-      // display: flex;
-      // justify-content: center;
-    }
 
-    h1 {
-      color: white !important;
-    }
+
   }
 
 
-  #back-img {
-    height: 400px;
-    background-image: url('/assets/img/hero-img.jpg');
-    background-blend-mode: overlay;
-    background-blend-mode: saturation;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: scroll;
-  }
 
   nav.mobile {
     display: flex;

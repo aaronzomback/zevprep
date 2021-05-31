@@ -4,7 +4,7 @@
 section.index-hero {
 
     height: 600px;
-    width: 100vw;
+    width: 100%;
     position: relative;
     background-image: url('/assets/img/hero-img.jpg');
     background-blend-mode: overlay;
@@ -42,7 +42,7 @@ section.index-hero {
 
 section.index-post-hero {
   height: 400px;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,7 +142,7 @@ section.index-subjects {
 
   font-family: "Amiri";
   padding-bottom: 120px;
-  width: 100vw;
+  width: 100%;
   background-color: white;
   color: black;
 

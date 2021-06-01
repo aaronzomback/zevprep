@@ -47,20 +47,23 @@ section.index-post-hero {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 48px;
   background-color: #010500;
   color: white;
   font-family: "Amiri";
 
   div {
-    width: 700px;
-    line-height: 1.4;
+    width: 400px;
+    line-height: 1;
 
     h2 {
         font-weight: 400;
+        font-size: 64px;
     }
     p {
       font-size: 21px;
       line-height: 1.6em;
+      width: 400px;
     }
   }
 }

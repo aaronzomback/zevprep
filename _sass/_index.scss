@@ -56,35 +56,20 @@ section.index-post-hero {
     line-height: 1.4;
 
     h2 {
-        padding: 400px 0;
         font-weight: 400;
     }
     p {
       font-size: 21px;
-      padding: 400px 0;
       line-height: 1.6em;
     }
   }
 }
 
-section.index-quote {
-  width: 100vw;
-  height: 400px;
-  font-family: "Amiri";
-  display: flex;
-  justify-content: center;
-
-  p {
-    margin-top: 160px;
-    width: 800px;
-    text-align:center;
-    font-size: 32px;
-  }
-}
-
 section.index-about {
-
   height: 1000px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -95,13 +80,13 @@ section.index-about {
   background-color: black;
   padding-bottom: 96px;
 
-  // .about-text {
-  //   flex: 1;
-  // }
-  //
-  // .index-about-flex {
-  //   flex: 2;
-  // }
+  div.about-text {
+    flex: 2;
+  }
+ 
+  div.index-about-flex {
+    flex: 3;
+  }
 
   div.zev-learn-more {
 
@@ -124,8 +109,9 @@ section.index-about {
   }
 
 
-  h2 {
+  h1 {
     font-size: 56px;
+    text-align: center;
   }
 
   #zev-img {
@@ -155,6 +141,14 @@ section.index-subjects {
   background-color: white;
   color: black;
   width: 100vw;
+
+  img {
+    cursor: pointer;
+  }
+
+  // div.overlay {
+  //   cursor: pointer;
+  // }
 
 
   h2 {

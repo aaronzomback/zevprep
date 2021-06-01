@@ -12,6 +12,8 @@
 }
 
 #footer {
+  // width: 100%;
+  // position: relative;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -23,6 +25,6 @@
   padding-top: 24px;
   padding-bottom: 64px;
   bottom: 0;
-  height: 10.5rem;            /* Footer height */
+  height: 4rem;            /* Footer height */
 }
 //

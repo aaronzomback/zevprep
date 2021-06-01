@@ -1,21 +1,30 @@
 section.about {
+
   img {
-    width: 400px;
+    width: 360px;
+    margin: 0;
   }
 
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 64px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  justify-content: center;
   margin-top: 120px;
   align-items:flex-start;
-  width: 1000px;
+
+  h3 {
+    margin: 0;
+  }
+
+  h5 {
+    margin:0;
+  }
 }
 
 
 div.about-paragraph {
   font-family: "amiri";
-  font-size: 18px;
-  width: 400px;
+  font-size: 21px;
+  width: 500px;
 }

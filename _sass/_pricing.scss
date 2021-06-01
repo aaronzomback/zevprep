@@ -1,9 +1,54 @@
 
 
-section.pricing-pg {
+section.pricing {
+    margin-top: 120px;
+    margin-bottom: 64px;
+    margin-left: 14rem;
     font-family: "amiri";
 
     div {
         font-size: 21px;
     }
+
+
+  h3 {
+    margin: 0;
+  }
+
+  h5 {
+    margin: 16px 0 0 0;
+  }
+  
+  ul {
+      margin-top: 0;
+  }
+}
+
+div.contact-box {
+    
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    margin-right: 0;
+    padding: 24px 56px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    a {
+      margin-right: 0;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-size: 40px;
+    }
+}
+
+div.center-contact {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+    font-family: "amiri";
 }

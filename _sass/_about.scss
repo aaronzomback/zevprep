@@ -6,6 +6,9 @@ section.about {
   }
 
   margin-bottom: 120px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
   grid-gap: 48px;

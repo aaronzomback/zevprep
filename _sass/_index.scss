@@ -159,6 +159,9 @@ section.index-subjects {
   }
 
 div.sat-act-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

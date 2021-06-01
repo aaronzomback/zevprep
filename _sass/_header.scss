@@ -9,6 +9,9 @@ header {
   margin-top: 24px;
   margin-bottom: 48px;
 
+  nav > nav-links {
+    margin-left: auto;
+  }
 
 
   h1 {
@@ -21,6 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     div.nav-links {
       a.underline{
         transition: all .2s ease-in-out;

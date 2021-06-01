@@ -47,7 +47,7 @@ section.index-post-hero {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 48px;
+  // gap: 48px;
   background-color: #010500;
   color: white;
   font-family: "Amiri";
@@ -55,6 +55,7 @@ section.index-post-hero {
   div {
     width: 400px;
     line-height: 1;
+    margin-right: 48px;
 
     h2 {
         font-weight: 400;

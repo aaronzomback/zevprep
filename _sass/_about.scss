@@ -11,7 +11,6 @@ section.about {
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  grid-gap: 48px;
   justify-content: center;
   margin-top: 120px;
   align-items:flex-start;
@@ -23,4 +22,5 @@ div.about-paragraph {
   font-family: "amiri";
   font-size: 21px;
   width: 500px;
+  margin-left: 48px;
 }

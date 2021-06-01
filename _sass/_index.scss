@@ -159,13 +159,15 @@ section.index-subjects {
   }
 
 div.sat-act-flex {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display:-webkit-flex;
+  display:-webkit-box;
+  display:-moz-flex;
+  display:-moz-box;
+  display:-ms-flexbox;
+  display:flex;
   flex-wrap: wrap;
   justify-content: center;
-  grid-gap: 88px;
+  // grid-gap: 88px;
 
 }
 
@@ -191,6 +193,7 @@ div.sat-act-flex {
     width: 300px;
     font-family: "Amiri";
     margin-bottom: 32px;
+    margin-right: 80px;
 
 
 
@@ -241,6 +244,7 @@ div.sat-act-flex {
     // margin-right: 8rem;
     font-family: "Amiri";
     margin-bottom: 32px;
+    margin-right: 80px;
 
     div.hum-img {
       height: 300px;

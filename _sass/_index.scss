@@ -370,59 +370,59 @@ div.sat-act-flex {
 
 }
 
-section.index-testimonials {
-  margin-top: 240px;
-  width: 100vw;
-  background-color: black;
-  color: white;
-  font-family: "Amiri";
-  align-items: flex-start;
-  display: flex;
-  justify-content: space-around;
+// section.index-testimonials {
+//   margin-top: 240px;
 
-  div.testimonial-one {
-    margin-top: 120px;
-  }
+//   background-color: black;
+//   color: white;
+//   font-family: "Amiri";
+//   align-items: flex-start;
+//   display: flex;
+//   justify-content: space-around;
 
-  div.testimonial-three {
-    margin-bottom: 120px;
-  }
+//   div.testimonial-one {
+//     margin-top: 120px;
+//   }
 
-  .body {
-    width: 600px;
-    font-size: 21px;
-  }
+//   div.testimonial-three {
+//     margin-bottom: 120px;
+//   }
 
-  div.testimonial-btn {
-    font-size: 16px;
-    margin-top: 80px;
-    min-width: 460px;
-    border: 2px solid white;
-    padding: 16px 32px;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 160px;
-    transition: all .2s ease-in-out;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+//   .body {
+//     width: 600px;
+//     font-size: 21px;
+//   }
 
-    span {
-      margin-right: 16px;
-    }
+//   div.testimonial-btn {
+//     font-size: 16px;
+//     margin-top: 80px;
+//     min-width: 460px;
+//     border: 2px solid white;
+//     padding: 16px 32px;
+//     color: white;
+//     text-transform: uppercase;
+//     letter-spacing: 2px;
+//     margin-bottom: 160px;
+//     transition: all .2s ease-in-out;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
 
-    &:hover {
-      background-color: black;
-      color: white;
-    }
-  }
+//     span {
+//       margin-right: 16px;
+//     }
 
-  div.testimonial-header {
-    padding-top: 120px;
-    margin-bottom: 80px;
-  }
-}
+//     &:hover {
+//       background-color: black;
+//       color: white;
+//     }
+//   }
+
+//   div.testimonial-header {
+//     padding-top: 120px;
+//     margin-bottom: 80px;
+//   }
+// }
 
 .sat-act-flex {
   display: flex;

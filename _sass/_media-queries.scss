@@ -20,7 +20,7 @@
 
   section.index-hero {
 
-
+    background-size: 120%;
     // div.hero-flex {
     //   display: flex;
     //   // justify-content: flex-start;
@@ -40,6 +40,12 @@
 
 }
 
+@media (min-width: 768px) and (max-width: 1250px) {
+  section.index-hero{
+    background-size: 160%;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
     nav.wide {
       display: none;
@@ -52,6 +58,7 @@
   section.index-hero {
     width: 100%;
     box-sizing: border-box;
+    background-size:300%;
 
 
 

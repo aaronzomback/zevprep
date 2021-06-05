@@ -69,9 +69,14 @@
   nav.mobile {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 32px;
     margin-bottom: 32px;
     align-items: center;
+
+    .phone {
+      font-size: 12px;
+    }
   }
 
 }

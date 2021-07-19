@@ -84,7 +84,7 @@
 
 }
 
-@media screen and (min-width: 1460px) {
+@media screen and (min-width: 1500px) {
 
   nav.wide {
     a {
@@ -95,29 +95,37 @@
       font-size: 14px;
     }
   }
+
+  #hamburger-nav {
+    display: none;
+  }
+  
+  nav.mobile {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1461px) {
 
   nav.wide {
     a {
-      font-size: 18px;
+      font-size: 16px;
       margin-right: 80px;
     }
     div.inline-flex {
       font-size: 14px;
     }
   }
-}
-
-
+  
+  
   #hamburger-nav {
     display: none;
   }
-
+  
   nav.mobile {
     display: none;
   }
+}
 
 
 @media (min-width: 1401px) and (max-width: 1460px) {

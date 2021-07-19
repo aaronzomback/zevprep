@@ -95,17 +95,9 @@
       font-size: 14px;
     }
   }
-
-  #hamburger-nav {
-    display: none;
-  }
-  
-  nav.mobile {
-    display: none;
-  }
 }
 
-@media screen and (min-width: 1461px) {
+@media screen and (min-width: 1459px) {
 
   nav.wide {
     a {
@@ -116,16 +108,16 @@
       font-size: 14px;
     }
   }
-  
-  
+}
+
+
   #hamburger-nav {
     display: none;
   }
-  
+
   nav.mobile {
     display: none;
   }
-}
 
 
 @media (min-width: 1401px) and (max-width: 1460px) {

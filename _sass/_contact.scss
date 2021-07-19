@@ -5,6 +5,7 @@ section.contact {
 }
 
 #contact-div {
+  padding: 24px;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -21,8 +22,8 @@ section.contact {
 }
 
 #close-form {
-  top: 24px;
-  right: 48px;
+  top: 56px;
+  right: 32px;
   position: absolute
 }
 
@@ -44,7 +45,7 @@ form {
   input {
     display: block;
     width: 300px;
-    padding: 12px;
+    padding: 8px 12px;
     margin-bottom: 16px;
     border: 1px solid black;
     font-family: "amiri";
@@ -81,6 +82,8 @@ form {
     border: 1px solid black;
     font-size: 18px;
     font-family: "amiri";
+    cursor: pointer;
+    margin-bottom: 16px;
   }
 
 }

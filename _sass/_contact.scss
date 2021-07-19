@@ -47,6 +47,13 @@ form {
     padding: 12px;
     margin-bottom: 16px;
     border: 1px solid black;
+    font-family: "amiri";
+    font-size: 18px;
+
+    &:focus {
+      outline: none;
+      border: 2px solid black;
+    }
   }
 
   textarea {
@@ -56,6 +63,13 @@ form {
     margin-bottom: 16px;
     border: 1px solid black;
     height: 60px;
+    font-size: 18px;
+    font-family: "amiri";
+
+    &:focus {
+      outline: none;
+      border: 2px solid black;
+    }
   }
 
 

@@ -7,8 +7,8 @@ section.index-hero {
     position: relative;
     background-image: url('/assets/img/hero-img.jpg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     background-blend-mode: overlay;
-    background-size: cover;
-    background-position: center center;
+    background-size: 160%;
+    background-position: center left;
     background-attachment: scroll;
     font-family: "amiri";
 
@@ -19,11 +19,11 @@ section.index-hero {
       text-align: center;
 
       h1 {
-        margin-top: 8rem;
+        margin-top: 7rem;
         color: white;
         line-height: 1;
         text-shadow: 2px 2px 4px black;
-        // font-weight: 400;
+        font-size: 64px;
       }
       p {
         width: 500px;

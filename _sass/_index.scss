@@ -39,9 +39,8 @@ section.index-hero {
 section.index-post-hero {
   height: 400px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  // gap: 48px;
   background-color: #010500;
   color: white;
   font-family: "Amiri";
@@ -556,7 +555,7 @@ section.index-contact {
   font-family: "Amiri";
   background-color: white;
   color: black;
-  height: 872px;
+  height: 808px;
 
   h1 {
     display: flex;

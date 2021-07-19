@@ -1,9 +1,4 @@
 
-div.header-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 section.index-hero {
 
@@ -60,6 +55,8 @@ section.index-post-hero {
         font-size: 64px;
     }
     p {
+      text-align: justify;
+      text-justify: inter-character;
       font-size: 21px;
       line-height: 1.6em;
       width: 400px;
@@ -193,6 +190,8 @@ div.sat-act-flex {
     font-family: "Amiri";
     margin-bottom: 32px;
     margin-right: 80px;
+    text-align: justify;
+    text-justify: inter-character;
 
 
 
@@ -244,6 +243,8 @@ div.sat-act-flex {
     font-family: "Amiri";
     margin-bottom: 32px;
     margin-right: 80px;
+    text-align: justify;
+    text-justify: inter-character;
 
     div.hum-img {
       height: 300px;
@@ -258,6 +259,8 @@ div.sat-act-flex {
     }
 
     p {
+      text-align: justify;
+      text-justify: inter-word;
       width: 300px;
       margin-right: 0;
     }
@@ -292,6 +295,8 @@ div.sat-act-flex {
 
     width: 300px;
     margin-bottom: 32px;
+    text-align: justify;
+    text-justify: inter-character;
 
     div.act-img {
       width: 300px;

@@ -10,6 +10,7 @@ section.index-hero {
     background-position: center left;
     background-attachment: scroll;
     font-family: "amiri";
+    width: 100%;
 
 
     div.hero-flex {
@@ -46,9 +47,8 @@ section.index-post-hero {
   font-family: "Amiri";
 
   div {
-    width: 400px;
+    width: 40%;
     line-height: 1;
-    margin-right: 48px;
 
     h2 {
         font-weight: 400;
@@ -59,7 +59,7 @@ section.index-post-hero {
       text-justify: inter-character;
       font-size: 21px;
       line-height: 1.6em;
-      width: 400px;
+      // width: 400px;
     }
   }
 }
@@ -88,7 +88,7 @@ section.index-about {
     flex: 3;
   }
 
-  div.zev-learn-more {
+  button.zev-learn-more {
 
     border: 1px solid white;
     display: flex;
@@ -97,6 +97,8 @@ section.index-about {
     height: 64px;
     margin-top: 32px;
     cursor: pointer;
+    background-color: black;
+    color: white;
 
     span {
       padding: 6px 16px;
@@ -116,7 +118,7 @@ section.index-about {
 
   #zev-img {
     display: block;
-    width: 75%;
+    max-width: 75%;
     margin-top: 32px;
     margin-bottom: 32px;
     margin-left: auto;
@@ -145,10 +147,6 @@ section.index-subjects {
   img {
     cursor: pointer;
   }
-
-  // div.overlay {
-  //   cursor: pointer;
-  // }
 
 
   h2 {
@@ -382,60 +380,6 @@ div.sat-act-flex {
 
 }
 
-// section.index-testimonials {
-//   margin-top: 240px;
-
-//   background-color: black;
-//   color: white;
-//   font-family: "Amiri";
-//   align-items: flex-start;
-//   display: flex;
-//   justify-content: space-around;
-
-//   div.testimonial-one {
-//     margin-top: 120px;
-//   }
-
-//   div.testimonial-three {
-//     margin-bottom: 120px;
-//   }
-
-//   .body {
-//     width: 600px;
-//     font-size: 21px;
-//   }
-
-//   div.testimonial-btn {
-//     font-size: 16px;
-//     margin-top: 80px;
-//     min-width: 460px;
-//     border: 2px solid white;
-//     padding: 16px 32px;
-//     color: white;
-//     text-transform: uppercase;
-//     letter-spacing: 2px;
-//     margin-bottom: 160px;
-//     transition: all .2s ease-in-out;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-
-//     span {
-//       margin-right: 16px;
-//     }
-
-//     &:hover {
-//       background-color: black;
-//       color: white;
-//     }
-//   }
-
-//   div.testimonial-header {
-//     padding-top: 120px;
-//     margin-bottom: 80px;
-//   }
-// }
-
 .sat-act-flex {
   display: flex;
   justify-content: space-around;
@@ -581,3 +525,4 @@ section.index-contact {
 
 
 }
+

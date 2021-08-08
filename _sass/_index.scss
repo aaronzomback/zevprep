@@ -71,22 +71,20 @@ section.index-about {
   width: auto;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  vertical-align: middle;
   font-family: "Amiri";
   color: white;
   background-color: black;
 
-  div.about-text {
-    flex: 2;
+  div.about-width {
+    margin-left: auto;
+    margin-right: auto;
   }
- 
-  div.index-about-flex {
-    flex: 3;
+
+  div.about-p {
+    width: 800px;
+    margin: 64px auto 0 auto;
   }
+
 
   button.zev-learn-more {
 

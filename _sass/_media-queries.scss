@@ -104,17 +104,26 @@
     }
   }
 
+  header a {
+    margin-right: 0;
+  }
+
 
   nav.mobile {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 32px;
     margin-bottom: 32px;
     align-items: center;
+    text-align: center;
 
     .phone {
       font-size: 12px;
+    }
+
+    a {
+      margin-right: 0
     }
   }
 
@@ -192,6 +201,10 @@
 
 @media (max-width: 1185px) {
 
+  header a {
+    margin-right: 0;
+  }
+
   nav.wide {
     display: none;
   }
@@ -202,10 +215,11 @@
 
   nav.mobile {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 32px;
     margin-bottom: 32px;
     align-items: center;
+    text-align: center;
   }
 
 

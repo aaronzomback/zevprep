@@ -63,14 +63,46 @@
   }
 
   section.index-hero {
-    width: 100%;
     box-sizing: border-box;
     background-size:300%;
+    height: 390px;
 
-
-
+    div.hero-flex {
+      h1 {
+        font-size: 34px;
+      }
+      p {
+        width: 330px;
+        font-size: 18px;
+      }
+    }
   }
 
+  section.index-post-hero {
+    div h2 {
+      font-size: 48px;
+    }
+    div p {
+      font-size: 14px;
+    }
+  }
+
+  section.index-subjects {
+    width: auto;
+  }
+
+  div.sat-act-flex {
+    flex-wrap: wrap;
+  }
+
+  section.index-about {
+    height: auto;
+    width: auto;
+
+    div {
+      width: 360px;
+    }
+  }
 
 
   nav.mobile {

@@ -1,4 +1,6 @@
-
+body {
+  position: absolute;
+}
 
 section.index-hero {
 
@@ -65,8 +67,8 @@ section.index-post-hero {
 }
 
 section.index-about {
-  padding-top: 48px;
-  padding-bottom: 64px;
+  padding-top: 80px;
+  padding-bottom: 88px;
   height: auto;
   width: auto;
   margin-left: auto;
@@ -81,7 +83,7 @@ section.index-about {
   }
 
   div.about-p {
-    width: 800px;
+    width: 700px;
     margin: 64px auto 0 auto;
   }
 

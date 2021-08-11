@@ -49,7 +49,7 @@
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 319px) and (max-width: 768px) {
     nav.wide {
       display: none;
     }
@@ -111,6 +111,14 @@
   }
 
   header a {
+    margin-right: 0;
+  }
+
+  div.sat-card {
+    margin-right: 0;
+  }
+
+  div.hum-card {
     margin-right: 0;
   }
 
@@ -229,4 +237,14 @@
   }
 
 
+}
+
+@media (min-width: 616px) {
+  div.sat-card {
+    margin-right: 80px;
+  }
+
+  div.hum-card {
+    margin-right: 80px;
+  }
 }
